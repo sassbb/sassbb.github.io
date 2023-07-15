@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    background: rgb(213, 215, 215);
+    display: block;
+    margin: 0 auto;
+}
+
+#score{
+    font-size:40px;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    top: 70px;
+    left: 450px;
+}
+body {
+    overflow-x: hidden;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* 全般的な指定 */
+  }
